@@ -1,0 +1,76 @@
+* {
+    font-family: poppins;
+    text-transform: uppercase;
+}
+body {
+    background-image: url(img/back.jpg);
+}
+@font-face { /*Tipografía de la página*/
+	font-family: poppins;
+	src: url(poppins-m.ttf);
+}
+.fondo {
+    background-color: #272727;
+}
+
+#galeria img{
+    width: 100%;
+}
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 15px;
+}
+#galeria img:hover {
+    border: 5px solid #272727;
+    cursor: grab;
+}
+/* centrar fichas de perfiles en biografia*/
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+.fotos {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid  #272727 ;
+}
+.sinMargen { 
+    margin: 0px;
+}
+.borde { 
+    border-style: none;
+}
+.logo {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.divCentrado {
+    margin: 0 auto;
+}
+/* estilos: página de creadoras*/
+ 
+ .blog-post {
+    margin-bottom: 4rem;
+  }
+  .blog-post-title {
+    font-size: 2.5rem;
+  }
+  .blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #727272;
+  }
+  .transparente {
+    background-color: transparent;
+  }
+  #videos {
+    max-width: 800px; 
+    margin: auto;
+  }
+  #nosotras {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .amarillo {
+    color: #ffc252;
+  }

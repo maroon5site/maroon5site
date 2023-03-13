@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icono.png">
+    <link href="estilos.css" rel="stylesheet"> <!--LINK A LA HOJA DE ESTILOS-->
+    <script src="user.js"></script>
+    <!--LINK A BOOTSTRAP Y JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!--LINK A LOS ESTILOS DEL CARRUSEL-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="container fondo">
+        <div class="row">
+            <main>
+                <div class="col-xxl-12 text-center">
+                    <header> <!--TITULO Y NAVEGADOR-->
+                        <nav class="navbar navbar-expand-sm bg-light rounded">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                    <a href="index.html" class="nav-link">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="discos.html">DISCOGRAPHY</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="fotos.html">PHOTOS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="videos.html">VIDEOS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="bio.html">BIOGRAPHY</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">MORE OPTIONS</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item disabled">CONTACT</a></li>
+                                        <li><a class="dropdown-item" href="creators.html">CREATORS</a></li>
+                                    </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+                            </nav>
+                            <br>
+                            <img src="img/logo.png" alt="Logo Maroon 5" class="col-sm-6 col-lg-5 img-fluid logo">
+                        </header>
+                </div>
+                
+                <section class="py-5 text-center container"> <!--TEXTO GENERAL DE DISCOGRAFIA-->
+                    <div class="row py-lg-5">
+                        <div class="col-lg-6 col-md-8 col-sm-4 mx-auto">
+                        <h1 class="fw-dark text-white">CONTACT</h1>
+                        <p class="amarillo">Get notified when new events are announced in your area.</p>
+                        </div>
+                    </div>
+                </section>
+
+                    <article>
+                        <div class="col-xl-12 container">
+                            <form class="row g-3 needs-validation col-8 text-white mx-auto" novalidate>
+                                <div class="col-md-4">
+                                  <label for="validationCustom01" class="form-label">First name</label>
+                                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                                  <div class="valid-feedback">
+                                    Great, thanks!
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <label for="validationCustom02" class="form-label">Last name</label>
+                                  <input type="text" class="form-control" id="validationCustom02" value="" required>
+                                  <div class="valid-feedback">
+                                    Great, thanks!
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <label for="validationCustomUsername" class="form-label">Choose your username</label>
+                                  <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                    <div class="invalid-feedback">
+                                      Please choose a valid username.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="validationCustom03" class="form-label">City</label>
+                                  <input type="text" class="form-control" id="validationCustom03" required>
+                                  <div class="invalid-feedback">
+                                    Please provide a valid city.
+                                  </div>
+                                </div>
+                                <div class="col-md-3">
+                                  <label for="validationCustom04" class="form-label">Country</label>
+                                  <select class="form-select" id="validationCustom04" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>Argentina</option>
+                                  </select>
+                                  <div class="invalid-feedback">
+                                    Please select a valid state.
+                                  </div>
+                                </div>
+                                <div class="col-md-3">
+                                  <label for="validationCustom05" class="form-label">Zip code</label>
+                                  <input type="text" class="form-control" id="validationCustom05" required>
+                                  <div class="invalid-feedback">
+                                    Please provide a valid zip code.
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                    <label class="form-check-label" for="invalidCheck">
+                                      Agree to terms and conditions
+                                    </label>
+                                    <div class="invalid-feedback">
+                                      You must agree before submitting.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <button class="btn btn-primary" type="submit">Submit form</button>
+                                </div>
+                              </form>
+                        </div>
+                    </article>
+                    
+                    <br>
+                      <footer>
+                        <div class="text-center text-white">
+                            <div class="card-header">Informática General</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Website created by:</h5>
+                                <p class="card-text">Victoria Cuomo & Paula Marghetich.</p>
+                                <div class="card-footer text-muted">ARTES MULTIMEDIALES - UNA</div><br>
+                            </div>
+                        </div>
+                      </main>
+                    </footer>
+                    <script>
+                        // Deshabilita el campo de "submit" si los datos no fueron ingresados correctamente
+                    (() => {
+                    'use strict'
+  
+                    // formularios con estilos de validación de bootstrap
+                    const forms = document.querySelectorAll('.needs-validation')
+
+                    Array.from(forms).forEach(form => {
+                    form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                    alert('The information in the form is not correct, try again!')
+                    } else {
+                        alert('Your form has been submitted successfully!')
+                    }
+  
+                    form.classList.add('was-validated')
+                    }, false)
+                })
+            })()
+                    </script>
+                    </div>
+                    </div>
+</body>
+</html>
